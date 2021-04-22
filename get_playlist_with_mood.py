@@ -101,7 +101,6 @@ import tensorflow as tf
 # results = cross_val_score(estimator,X,encoded_y,cv=kfold)
 # #print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100,results.std()*100))
 
-
 # estimator.fit(X_train,Y_train)
 # y_preds = estimator.predict(X_test)
 
